@@ -45,7 +45,7 @@ let lamp = new Lamp('Лампа RT20', 5, 2700);
 let pc = new Pc('RobotComp TY', 600, islaptor=false);
 pc.startgame = function(gamename)
 {
-    this.included? console.log(`${gamename} на ${this.name} запущена `):console.log(`Сначала включите компьютер`)
+    this.included? console.log(`${gamename} на ${this.name} запущена `):console.log(`${gamename} не запущена, сначала включите компьютер`)
     
 }
 
